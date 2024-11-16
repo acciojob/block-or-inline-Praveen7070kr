@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.element-container {
+    margin-bottom: 20px; 
+}
+
+
+button, div, p, input, cite, code, h1, sup, sub, span {
+    margin: 5px;
+}
+
+
+button, div, p, h1 {
+    background-color: lightgrey;
+    padding: 5px;
+    display: block; 
+}
+
+span, code, input, cite, sup, sub {
+    background-color: lightyellow;
+    padding: 3px;
+    display: inline; 
+}
